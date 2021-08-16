@@ -1,0 +1,338 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+
+}
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+
+
+}
+.menu{
+	position: fixed;
+	width: 100%;
+	box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+	padding: 20px;
+	background-color: white;
+	display: flex;
+	align-items: center;
+	z-index: 2;
+}
+.logo{
+	width: 200px;
+	margin-right: 30px;
+
+
+
+}
+.menu-link{
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+	display: inline-block;
+	margin-top: 5px;
+}
+
+.menu-link img{
+	width: 40px;
+	margin-left: 30px;
+	vertical-align: middle;
+	margin-right: 10px;
+}
+.menu-link span{
+	}
+.img-box{
+	display: inline-block;
+
+
+
+}
+.links{
+	display: inline-block;
+
+
+}
+.first-screen{
+	min-height: 100vh;
+	background-image: url(../images/bg.jpg);
+	background-size: cover;
+	text-align: center;
+	padding: 300px 0px;
+	
+
+}
+.first-screen h1{
+	font-size: 60px;
+	width: 75%;
+	margin: 0px auto;
+
+
+}
+.about-us{
+	width: 80%;
+	margin: 0px auto;
+	padding: 50px 0px;
+
+
+}
+.title{
+	text-align: center;
+	font-size: 40px;
+
+}
+.descr{
+	margin-top: 10px;
+
+
+}
+.big-logo{
+	display: block;
+	text-align: center;
+
+
+}
+.big-logo img{
+	width: 600px;
+
+
+}
+h3{
+	text-align: center;
+	margin: 50px 0px;
+
+
+
+
+}
+.card{
+	text-align: center;
+	width: 278px;
+	display: inline-block;
+	border-width: 2px;
+	border-color: black;
+	border-style: double;
+	margin: 10px;
+	padding: 45px;
+	vertical-align: top;
+	background-color: #dff9fb;
+	
+	
+
+}
+.cards{
+	text-align: center;
+
+
+
+
+
+}
+html{
+	scroll-behavior: smooth;
+}
+.what-we-use{
+	text-align: center;
+
+
+
+}
+.what-we-use a{
+	display: inline-block;
+	width: 200px;
+	margin: 30px;
+	text-decoration: none;
+	font-size: 25px;
+	color: blue;
+}
+.what-we-use img{
+	width: 100%;
+	height: 200px;
+	object-fit: contain;
+
+}
+.what-we-use span{
+	display: block;
+	text-align: center;
+
+
+
+}
+.galery{
+	text-align: center;
+
+
+
+}
+.galery img{
+	width: 80%;
+	border-radius: 20px;
+	border-style: double;
+	border-color: black;
+	border-width: 10px;
+	margin-top: 15px;
+	filter: grayscale(70%);
+	transition: 0.5s;
+}
+.galery img:hover{
+	filter: grayscale(0%);
+	border-radius: 0px;
+	border-color: #7ed6df;
+
+
+
+
+}
+.price{
+	display: inline-block;
+	list-style-type: none;
+	box-shadow: 7px 3px 6px rgba(0, 0, 0, 0.3);
+	border-radius: 8px 8px 0px 0px;
+	margin: 20px;
+	width: 38%;
+
+
+
+
+
+}
+.price li{
+	border-bottom: 1px solid gray;
+	padding: 15px;
+
+
+
+
+}
+.us-form{
+	padding: 20px;
+    display: inline-block;
+    width: 50%;
+    text-align: left;
+    margin-top: 40px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
+}
+.us-form label{
+	display: block;
+}
+.us-form input,.us-form a{
+	width: 100%;
+	padding: 7px;
+
+
+}
+.us-form a{
+	display: block;
+	text-decoration: none;
+	background-color: crimson;
+	font-size: 20px;
+	color: white;
+	margin-top: 10px;
+	text-align: center;
+}
+.photo{
+	width: 30%;
+	margin-left: 40px;
+
+
+
+
+}
+.contacts{
+	text-align: center;
+	padding: 20px;
+
+
+
+}
+.form-container{
+	display: inline-block;
+	width: 60%;
+
+
+}
+.prices{
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 20px;
+
+
+}
+.price-title{
+	padding: 20px;
+	font-size: 25px;
+	font-weight: bold;
+	border-radius: 8px 8px 0px 0px;
+}
+.price .price-title{
+	background-color: #57606f;
+	color: white;
+
+
+}
+.pro .price-title{
+	background-color: #EA2027;
+
+
+
+
+}
+.cost{
+	font-size: 40px;
+	font-weight: bold;
+
+
+
+}
+.amount{
+	color: gray;
+	font-style: italic;
+
+
+
+}
+.price li:last-child{
+	border-bottom: none;
+
+
+
+}
+
+.prices a{
+	text-decoration: none;
+	background-color: #57606f;
+	font-weight: bold;
+	color: white;
+	display: block;
+	padding: 16px 0px;
+}
+.pro a{
+	background-color: #EA2027;
+}
+
+.soc{
+	background-color: black;
+	margin-top: 30px;
+	padding: 15px 30px;
+
+}
+.soc img{
+	width: 350px;
+	vertical-align: middle;
+	margin-top: 15px;
+
+
+
+}
+.soc p{
+	color: white;
+	font-weight: bold;
+	margin-top: 15px;
+}
+.soc a{
+	color: white;
+	text-decoration: none;
+	font-size: 15px;
+	display: block;
+}

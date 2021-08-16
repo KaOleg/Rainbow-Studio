@@ -1,0 +1,162 @@
+@media(max-width: 768px){
+	.menu{
+		position: static;
+
+
+	}
+	.first-screen{
+		padding: 150px 0px;
+
+
+
+
+	}
+	.what-we-use a{
+		font-size: 20px;
+		width: 150px;
+
+
+
+	}
+	h3{
+		margin: 25px 0px;
+
+
+
+
+	}
+	.us-form{
+		width: 100%;
+
+
+
+
+	}
+	.big-logo img{
+	width: 100%;
+
+
+}
+.first-screen h1{
+	font-size: 48px;
+	width: 90%;
+
+}
+.logo{
+	width: 80px;
+
+
+
+
+
+}
+
+
+.photo{
+	margin: 15px auto;
+
+
+}
+.logo{
+
+	display: none;
+}
+.form-container{
+	width: 100%;
+	text-align: left;
+
+
+
+}
+.us-form{
+	text-align: center;
+	margin-top: 0px;
+
+
+
+}
+
+
+}
+@media (max-width: 425px){
+	.first-screen h1{
+	width: 100%;
+	font-size: 40px;
+
+
+}
+.first-screen{
+	min-height: 50vh;
+
+
+
+}
+.price{
+	width: 100%;
+	margin: 10px 0px;
+
+
+
+}
+.photo{
+	width: 60%;	
+
+
+
+
+}
+.soc img{
+	width: 100%;
+
+
+
+}
+.card{
+	width: 100%;
+	margin: 10px 0px;
+	padding: 15px;
+
+}
+.prices{
+	padding: 10px;
+
+
+
+
+}
+.title{
+	font-size: 24px;
+	margin-top: 20px;
+
+
+
+}
+.first-screen span{
+	display: none;
+
+
+
+}
+.galery{
+	padding: 5px;
+
+
+
+}
+.galery img{
+	width: 100%;
+
+
+
+
+}
+.about-us{
+	padding: 20px 0px;
+
+
+
+}
+
+
+
+}
